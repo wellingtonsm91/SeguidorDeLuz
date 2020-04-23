@@ -24,8 +24,6 @@ int servo_sup = 90;    //Variável para movimentação do Servo
 
 //Inicializaçao do sistema
 
-
-
 void setup() {
   ServoHori.attach(9);
   ServoVert.attach(10);
@@ -100,9 +98,6 @@ LEITURA:
     else if (dif_E_D <= tolerancia) {
       goto MOTOR2;//**Vai para o motor vertical
     }
-
-
-
 
 
   //Movimentação do Motor da Placa(vertical)
